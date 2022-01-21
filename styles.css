@@ -45,6 +45,7 @@ button {
     background-color: var(--tertiary_color);
     border: none;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(209, 225, 240);
 }
 
 header {
