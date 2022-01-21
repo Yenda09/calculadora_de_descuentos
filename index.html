@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./tablet.css">
     <link rel="stylesheet" href="./desktop.css">
+    <link rel="stylesheet" href="./desktop.css" media="(min-width: 930px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <head>
+    <header>
         <h1>Calculadora de Descuentos</h1>
-    </head>
+    </header>
 
     <main>
         <section>
+            <h2>Calcula tu descuento</h2>
             <form action="">
-                <label for="inputPrice"><p>Precio</p></label>
+                <label for="inputPrice"><p>Precio :</p></label>
                 <input id="inputPrice" type="number">
-                <label for="inputDiscount"><p>Descuento</p></label>
-                <input id="inputDiscount" type="number">
+                <label for="inputDiscount"><p>Descuento :</p></label>
+                <input id="inputDiscount" type="number"><br>
                 <button type="button" onclick="calcularPrecioFinal()">Calcular</button>
             </form>
-            <p id="arrojarResultado"></p>
+            <p id="arrojarResultado">El valor a pagar es $ 0</p>
         </section>
     </main>
 
